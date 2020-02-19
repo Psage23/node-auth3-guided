@@ -44,6 +44,7 @@ function genToken(user) {
   const payload = {
     userid: user.id,
     username: user.username,
+    roles: ['Admin']
     //add any other info needed to be returned
   }
 
